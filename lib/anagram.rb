@@ -7,11 +7,11 @@ class Anagram
   end
   def match(match)
     #  match.sort
-    @word.split("").sort.join
-    #  if match.index(@word) == nil
-    #    @match = []
-    #  else
-    #   @match << match.index(@word)
-    # end
+
+     if match.index(@word) == nil
+       @match = []
+     else
+      @match << match.index(@word)
+    end
      end
 end
