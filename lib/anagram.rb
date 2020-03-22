@@ -6,7 +6,7 @@ class Anagram
 
   end
   def match(match)
-    match.map {|word| word}
+    match.map {|word| word.sort}
   #    if match.index(@word) == nil
   #      @match = []
   #    else
