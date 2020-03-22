@@ -2,10 +2,10 @@
 class Anagram
   attr_accessor :match
   def initialize(word)
-    spy.word
+    @word = word
 
   end
   def match(match)
-
+     match
   end
 end
