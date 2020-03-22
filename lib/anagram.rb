@@ -9,7 +9,7 @@ class Anagram
       sort_matches = match.map{|word| word.split("").sort.join}
       @match = []
      if sort_matches.index(@word) == nil
-       @match 
+       @match
      else
       @match << match.index(@word)
     end
