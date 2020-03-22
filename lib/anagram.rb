@@ -6,7 +6,7 @@ class Anagram
 
   end
   def match(match)
-    match.sort
+    # match.sort
      if match.sort.index(@word) == nil
        @match = []
      else
