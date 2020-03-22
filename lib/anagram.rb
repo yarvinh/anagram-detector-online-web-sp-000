@@ -6,6 +6,9 @@ class Anagram
 
   end
   def match(match)
-     match.index(@word)
+     if match.index(@word) == nil
+       @match = []
+     else 
+       match.index(@word)
   end
 end
