@@ -6,7 +6,7 @@ class Anagram
 
   end
   def match(match)
-    match.join
+    match.join(",")
   #    if match.index(@word) == nil
   #      @match = []
   #    else
