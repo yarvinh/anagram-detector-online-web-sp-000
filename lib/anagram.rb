@@ -13,6 +13,7 @@ class Anagram
           matches << w
         else
           matches
+        end
       }
       matches
       # @match = []
