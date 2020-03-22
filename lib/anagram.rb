@@ -2,7 +2,7 @@
 class Anagram
   attr_accessor :match
   def initialize(word)
-    word.spy
+    spy.word
 
   end
   def match(match)
