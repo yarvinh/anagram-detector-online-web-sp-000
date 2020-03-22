@@ -8,7 +8,7 @@ class Anagram
   def match(match)
      if match.index(@word) == nil
        @match = []
-     else 
+     else
        match.index(@word)
   end
 end
