@@ -12,5 +12,5 @@ class Anagram
   #    else
   #     @match << match.index(@word)
   #   end
-  #  end
+    end
 end
