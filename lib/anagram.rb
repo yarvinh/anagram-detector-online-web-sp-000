@@ -11,7 +11,7 @@ class Anagram
      if sort_matches.index(@word) == nil
        @match
      else
-      @match << match[sort_matches.all?(@word)]
+      @match << match[sort_matches.all(@word)]
     end
      end
 end
