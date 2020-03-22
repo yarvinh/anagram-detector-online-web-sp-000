@@ -9,7 +9,7 @@ class Anagram
       match.map{|word| word.split("")}
 
 
-    @word
+    # @word
     #
     #  if match.index(@word) == nil
     #    @match = []
