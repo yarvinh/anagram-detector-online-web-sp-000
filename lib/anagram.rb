@@ -6,10 +6,11 @@ class Anagram
 
   end
   def match(match)
-     if match.index(@word) == nil
-       @match = []
-     else
-      @match << match.index(@word)
-    end
-  end
+    match.join
+  #    if match.index(@word) == nil
+  #      @match = []
+  #    else
+  #     @match << match.index(@word)
+  #   end
+  # end
 end
