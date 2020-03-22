@@ -6,6 +6,6 @@ class Anagram
 
   end
   def match(match)
-     match
+     match.index(@word)
   end
 end
