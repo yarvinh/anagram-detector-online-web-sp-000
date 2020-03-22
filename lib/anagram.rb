@@ -10,5 +10,6 @@ class Anagram
        @match = []
      else
       @match << match.index(@word)
+    end
   end
 end
