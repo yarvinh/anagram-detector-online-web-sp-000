@@ -8,7 +8,7 @@ class Anagram
   def match(match)
       sort_matches = match.map{|word| word.split("").sort.join}
 
-     if sort_matchesmatch.index(@word) == nil
+     if sort_matches.index(@word) == nil
        @match = []
      else
       @match << match.index(@word)
