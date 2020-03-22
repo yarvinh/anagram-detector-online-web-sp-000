@@ -6,16 +6,12 @@ class Anagram
 
   end
   def match(match)
-      @match = match.map{|word| word.split("").sort.join}
-      @match
+      sort_matches = match.map{|word| word.split("").sort.join}
 
-
-    # @word
-    #
-    #  if match.index(@word) == nil
-    #    @match = []
-    #  else
-    #   @match << match.index(@word)
-    # end
+     if sort_matchesmatch.index(@word) == nil
+       @match = []
+     else
+      @match << match.index(@word)
+    end
      end
 end
