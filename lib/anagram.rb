@@ -9,6 +9,6 @@ class Anagram
      if match.index(@word) == nil
        @match = []
      else
-       match.index(@word)
+      @match << match.index(@word)
   end
 end
