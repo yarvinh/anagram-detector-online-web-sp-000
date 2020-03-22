@@ -6,6 +6,6 @@ class Anagram
 
   end
   def match(match)
-     match.split(",")
+     match
   end
 end
