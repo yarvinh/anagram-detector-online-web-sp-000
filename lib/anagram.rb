@@ -6,7 +6,7 @@ class Anagram
 
   end
   def match(match)
-      match.map{|word| word.split("").sort}
+      match.map{|word| word.split("").sort.join}
 
 
     # @word
